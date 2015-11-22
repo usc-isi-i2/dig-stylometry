@@ -1,4 +1,5 @@
-This repo has 100k ads file and postprocess script.
+This repo has 100k ads file https://github.com/usc-isi-i2/dig-data/blob/master/sample-datasets/ht/CDR/100k-new-ht-data.jl.zip
+and postprocess script.
 I got 100k ads file by converting the sequence file into json lines.
 
 
