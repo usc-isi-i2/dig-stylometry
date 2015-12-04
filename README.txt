@@ -24,4 +24,9 @@ c) clustering:
 arguments for postprocess.py:
 a) clusters.txt
 b) ads file 
-c) outputfile 
+c) outputfile
+
+creategroundtruth.py will create ground truth pairs from elastic search query response
+input arguments
+(a) elastic search query response
+(b) outputfile
