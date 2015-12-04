@@ -1,0 +1,33 @@
+GET dig-unic-clusters-01/_search
+{
+   "aggs": {
+      "clusteragg": {
+         "terms": {
+            "field": "cluster_id",
+            "size" :100,
+            "min_doc_count":1,
+            "order": {"_count":"desc"}
+         },
+         "aggs":{
+          "sampleads":{
+          "top_hits":{
+              "size": 2,
+              "_source":{
+               "include":[
+                   "cluster_id",
+                   "uri",
+                   "url",
+                   "description",
+                   "mainEntity.title",
+                   "desc_signature",
+                   "title_signature"
+                   
+                   
+                   ]
+              }
+          }   
+          }
+         }     
+      }
+   },"size": 0
+}
