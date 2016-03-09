@@ -1,0 +1,6 @@
+{
+  "pretty": true,
+  "maxLines": 20,
+  "runlimit": 5,
+  "field": "title_signature"
+}
