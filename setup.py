@@ -13,9 +13,8 @@ config = {
     'download_url': 'https://github.com/usc-isi-i2/dig-stylometry.git',
     'author_email': 'bojanapa@usc.edu',
     'install_requires': ['nose2',
-                         'digSparkUtil',
-                         'jq'],
-    'version':'0.1.7',
+                         'digSparkUtil'],
+    'version':'0.1.9',
     'packages': ['digStylometry'],
     'scripts': []
 }
